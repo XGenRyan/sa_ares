@@ -1,0 +1,6 @@
+{
+    "require": {
+        "videlalvaro/php-amqplib": "2.1.0",
+        "mandrill/mandrill": "1.0.*"
+    }
+}

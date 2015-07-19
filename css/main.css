@@ -1,0 +1,152 @@
+@charset "UTF-8";
+body {
+	background-color: #F6F6F6;
+}
+
+blockquote {
+	font-size: 1em;
+}
+
+textarea {
+	resize: none;
+	min-height: 80px;
+}
+
+fieldset.border {
+	border: 1px groove #ddd !important;
+	padding: 0 1.4em 1.4em 1.4em !important;
+	margin: 0 0 1.5em 0 !important;
+	-webkit-box-shadow:  0px 0px 0px 0px #000;
+			box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.border {
+	width: inherit;
+	padding: 0 10px;
+	border-bottom: none;
+}
+
+#up {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	cursor: pointer;
+}
+
+.text-align {
+	text-align: center;
+}
+
+.vert-align {
+	vertical-align: middle !important;
+}
+
+.float-right {
+	float: right;
+}
+
+.left {
+	margin-left: -2%;
+}
+
+.search {
+	padding-left: 44px;
+	width: 250px;
+	background-image: url('../images/search.png');
+	background-repeat: no-repeat;
+	background-position: -5% center;
+	outline: 0;
+}
+
+.top-buffer {
+	margin-top: 20px;
+}
+
+.glyphicon {
+	cursor: pointer;
+}
+
+.glyphicon-chevron-up {
+	margin-top: 9px;
+	margin-left: 12px;
+	font-size: 2em;
+	color: #F6F6F6;
+}
+
+.glyphicon-send {
+	padding-right: 5px;
+}
+
+.green {
+	color: #007e40;
+}
+
+.red {
+	color: #A50300;
+}
+
+.hide {
+	display: none;
+}
+
+.title {
+	text-align: center;
+	word-spacing: 15px;
+	margin-right: 11%;
+}
+
+.checkbox-group {
+	padding-right: 20px;
+}
+
+.docs-list ul {
+	margin-top: 20px;
+}
+
+.docs-list li {
+	list-style-type: none;
+	margin-top: 8px;
+}
+
+@media (min-width: 992px) {
+	.docs-list li {
+		max-width: 140px;
+	}
+}
+
+@media (max-width: 991px) {
+	.docs-list li {
+		margin-left: -40px;
+	}
+}
+
+.docs-list li:first-child {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.docs-list li:not(:first-child)::before {
+	content: "↳";
+}
+
+.docs-content section:not(:first-child) {
+	padding-top: 40px;
+}
+
+.docs-content h4 {
+	padding-top: 20px;
+}
+
+.docs-content h5 {
+	font-style: italic;
+	color: gray;
+}
+
+.circle {
+	width: 50px;
+	height: 50px;
+	background: #313131;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
